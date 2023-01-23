@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'
-
-const App = () =>{
-    return(  <h1>Hola Mundo</h1>  )
-}
+import { ClubApp } from './ClubApp';
+import { FirstApp } from './FirstApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <App/>
+        <ClubApp/>
+        <FirstApp/>
     </React.StrictMode>
 )
 
